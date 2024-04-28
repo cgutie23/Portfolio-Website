@@ -3,6 +3,10 @@
     margin: 0px;
 }
 
+.mainBody
+{
+    width: 100%;
+}
 /*Nav Bar Attributes*/
 .NavBar li a 
 {
@@ -24,7 +28,7 @@ header
     top: 0;
     border-bottom: solid 1px whitesmoke;
     z-index: 1;
-    width: 100%;
+    width: 97%;
 }
 
 .logo
@@ -99,6 +103,7 @@ div
     inset: 0;
     opacity: 0.5;
     border-bottom: solid 2px rgb(19, 18, 18);
+    width: 100%;
 }
 
 /*Header text*/
@@ -123,7 +128,6 @@ h2
 .body
 {
     /*Text attributes*/
-    right: 100px;
     background-color: rgb(19, 18, 18);
     font-family: "Montserrat";
     color: white;
@@ -131,14 +135,16 @@ h2
 
     /*Border attributes*/
     height: 400px;
-    width: 1375px;
+    /*width: 1375px;*/
+    width: 95%;
+    max-width: 95%;
     border: double 5px whitesmoke;/*rgb(61, 110, 200);*/
     border-radius: 30px;
     border-top-right-radius: 0px;
     border-bottom-left-radius: 0px;
     position: relative;
-    right: 15px;
-    left: 25px;
+    margin-left: auto;
+    margin-right: auto;
     top: 50px;
     
 }
@@ -150,15 +156,16 @@ h2
     /*Border attributes*/
     background-color: rgb(19, 18, 18);
     height: 400px;
-    width: 1275px;
+    width: 88%;
+    max-width: 95%;
     border: double 5px whitesmoke;
     border-radius: 30px;
     border-top-right-radius: 0px;
     border-bottom-left-radius: 0px;
     position: relative;
     top: 100px;
-    left: 25px;
-    right: 15px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 50px;
 
     /*Text attributes*/
@@ -170,13 +177,14 @@ ul.SkillsList
 {
     display: flex;
     align-items: center;
-    margin-right: 50px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .skills ul
 {
-    margin-right: 50px;
-    margin-left: 120px;
+    margin-right: auto;
+    margin-left: auto;
     margin-top: 100px;
 }
 
@@ -189,15 +197,16 @@ ul.SkillsList
     /*Border attributes*/
     background-color: rgb(19, 18, 18);
     height: 400px;
-    width: 1275px;
+    width: 88%;
+    max-width: 95%;
     border: double 5px whitesmoke;
     border-radius: 30px;
     border-top-right-radius: 0px;
     border-bottom-left-radius: 0px;
     position: relative;
     top: 150px;
-    left: 25px;
-    right: 15px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 50px;
 
 }
@@ -217,15 +226,15 @@ a
     /*Border attributes*/
     background-color: rgb(19, 18, 18);
     height: 400px;
-    width: 1275px;
+    max-width: 88%;
     border: double 5px whitesmoke;
     border-radius: 30px;
     border-top-right-radius: 0px;
     border-bottom-left-radius: 0px;
     position: relative;
     top: 225px;
-    left: 25px;
-    right: 15px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 50px;
 }
 
@@ -237,15 +246,16 @@ a
     /*Border attributes*/
     background-color: rgb(19, 18, 18);
     height: 400px;
-    width: 1275px;
+    width: 88%;
+    max-width: 95%;
     border: double 5px whitesmoke;
     border-radius: 30px;
     border-top-right-radius: 0px;
     border-bottom-left-radius: 0px;
     position: relative;
     top: 295px;
-    left: 25px;
-    right: 15px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 50px;
     
 }
@@ -280,7 +290,8 @@ li
     /*Border attributes*/
     background-color: rgb(19, 18, 18);
     height: 300px;
-    width: 1275px;
+    width: 88%;
+    max-width: 95%;
     border: double 5px whitesmoke;
     border-radius: 30px;
     border-top-right-radius: 0px;
@@ -288,8 +299,9 @@ li
     position: relative;
     top: 350px;
     bottom: 50px;
-    left: 25px;
-    right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+
     padding: 50px;
 }
 
