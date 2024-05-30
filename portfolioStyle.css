@@ -210,6 +210,8 @@ ul.SkillsList
     margin-left: auto;
     margin-right: auto;
     padding: 50px;
+    overflow: hidden;
+    overflow-y: scroll;
 
 }
 
@@ -238,6 +240,8 @@ a
     margin-left: auto;
     margin-right: auto;
     padding: 50px;
+    overflow: hidden;
+    overflow-y: scroll;
 }
 
 /*Projects tab*/
@@ -259,7 +263,8 @@ a
     margin-left: auto;
     margin-right: auto;
     padding: 50px;
-    
+    overflow: hidden;
+    overflow-y: scroll;
 }
 
 /*Guitar Video*/
